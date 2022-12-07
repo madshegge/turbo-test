@@ -1,4 +1,5 @@
-import * as React from "react";
+import * as React from 'react'
+import './styles.css'
 export const Button = () => {
-  return <button>Boop</button>;
-};
+    return <button className="bg-blue-400 p-4">Boop</button>
+}
